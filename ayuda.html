@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayuda con TecnoHub</title>
+
+    <!-- Iconos y fuentes externas -->
+    <link rel="icon" href="img/icono.png">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+
+    <!-- Framework CSS (Bootstrap) -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- CSS personalizado -->
+    <link rel="stylesheet" href="css/anicollections.css">
+    <link rel="stylesheet" href="css/styleindex.css">
+
+    <!-- JavaScript externo -->
+    <script src="https://kit.fontawesome.com/0d7c115e0b.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <!-- Header - No tocar -->
+    <nav class="navbar navbar-expand-lg" id="barra_navegacion">
+
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index2.html">
+                <img src="img/logo-header.png" alt="" style="width: 350px; height: 100px; border-radius: 20px;"
+                    class="img-fluid">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse flex-column mx-0 mx-md-5" id="navbarNav">
+
+                <form class="form-inline my-1 my-lg-3 w-100 d-flex ">
+                    <input class="form-control w-85 me-2" type="search" placeholder="🔍︎ Buscar" aria-label="Search">
+                    <button class="btn w-15 shadow" type="submit" id="boton-buscar" formaction="busqueda-producto.html">
+                        Buscar
+                    </button>
+                </form>
+
+                <div class="d-flex flex-column">
+
+                    <div class="d-flex flex-row justify-content-between align-items-center">
+
+                        <a class="nav-link px-2" href="index.html" style="border-radius: 10%">
+                            <p class="font-header">
+                                <i class="fa-solid fa-house"></i> Inicio
+                            </p>
+                        </a>
+                        <a class="nav-link px-1" href="#" style="border-radius: 10%">
+                            <select id="categorySelect" class="form-select" aria-label="Default select example"
+                                style="border-radius: 10%">
+                                <option selected>Categorías</option>
+                                <option value="celulares.html">Celulares</option>
+                                <option value="smartwatch.html">Smartwatch</option>
+                                <option value="accesorios.html">Accesorios</option>
+                            </select>
+                        </a>
+                        <a class="nav-link px-2 frequent-animation" href="arma-tu-kit.html" style="border-radius: 10%">
+                            <p class="font-header">
+                                <i class="fa-solid fa-box-open"></i> Arma tu Kit
+                            </p>
+                        </a>
+
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="collapse navbar-collapse flex-column align-items-end mx-3" id="navbarNav">
+
+
+                <div class="d-flex flex-column">
+                    <div class="d-flex flex-row justify-content-between align-items-center mb-4">
+
+
+                        <div class="dropdown ">
+
+                            <a class="btn btn-secondary dropdown-toggle"
+                                style="background: #4374A9; margin-right: 10px; border:1px solid  #bfcfdd;" href="#"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                grupo04
+                            </a>
+                            <img src="img/user.png" alt="">
+
+                            <ul class="dropdown-menu ">
+                                <li><a class="dropdown-item " href="mis-compras.html">Mis compras</a></li>
+                                <li><a class="dropdown-item " href="ayuda.html">Ayuda</a></li>
+                                <div class="dropdown-divider"></div>
+                                <li><a class="dropdown-item text-danger " href="index2.html">Cerrar sesión</a></li>
+                            </ul>
+                        </div>
+
+                        <a class="nav-link" href="carrito.html" id="login" style="margin-left: 10px;">
+                            <p class="font-header" id="personal1">
+                                <img src="img/cart.png" alt="">
+                            </p>
+                        </a>
+                    </div>
+
+
+                </div>
+
+                <div class="d-flex flex-column">
+                    <div class="d-flex flex-row justify-content-between align-items-center">
+
+                        <a class="nav-link px-2" href="mi-cuenta.html" style="border-radius: 10%">
+                            <p class="font-header">
+                                Mi cuenta
+                            </p>
+                        </a>
+                        <a class="nav-link px-2" href="mis-favoritos.html" style="border-radius: 10%"
+                            data-anijs="if: mouseover, do: pulse animated">
+                            <p class="font-header">
+                                <i class='bx bxs-heart'></i>
+                                Mis favoritos
+                            </p>
+                        </a>
+
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Modificar página aquí -->
+    <div class="container">
+        <div class="row m-4">
+            <div class="row align-items-center">
+                <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                    <h1 class="text-center">¿Cómo te podemos ayudar?</h1>
+
+                    <a href="cookies.html"
+                        class="navbar-brand text-dark py-3 px-3 btn shadow justify-content-center text-center w-100 mt-4 py-4"
+                        id="btns-ayuda">
+                        <p class="btn-text">
+                            <img src="img/cookies.png" class="btn-img" alt="">
+                            Sobre el uso de cookies
+                        </p>
+                    </a>
+
+                    <a href="tyc.html"
+                        class="navbar-brand  text-dark py-3 px-3 btn shadow justify-content-center text-center w-100 mt-4 py-4"
+                        id="btns-ayuda">
+                        <p class="btn-text">
+                            <img src="img/tyc.png" class="btn-img" alt="">
+                            Nuestros términos y condiciones
+                        </p>
+                    </a>
+
+                    <a href="bases-legales.html"
+                        class="navbar-brand  text-dark py-3 px-3 btn shadow justify-content-center text-center w-100 mt-4 py-4"
+                        id="btns-ayuda">
+                        <p class="btn-text">
+                            <img src="img/bl.png" class="btn-img" alt="">
+                            Nuestras bases legales
+                        </p>
+                    </a>
+
+                    <a href="cambios-devoluciones.html"
+                        class="navbar-brand  text-dark py-3 px-3 btn shadow justify-content-center text-center w-100 mt-4 py-4 mb-4"
+                        id="btns-ayuda">
+                        <p class="btn-text">
+                            <img src="img/cambios-devo.png" class="btn-img" alt="">
+                            Sobre los cambios y devoluciones
+                        </p>
+                    </a>
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex justify-content-center">
+                    <img src="img/Ayuda.png" class="img-fluid" alt="Image" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--  Footer - No tocar -->
+    <footer class="pie-pagina">
+
+        <div class="grupo-1">
+            <div class="box d-flex flex-column align-items-center">
+                <img src="img/logo-footer.png" class="img-fluid" alt=""
+                    style="width: 280px; height: 80px; border-radius: 20px;">
+
+                <div class="red-social mt-3">
+                    <a href="#">
+                        <p class="links-footer">
+                            <i class='bx bxl-facebook'></i>
+                        </p>
+                    </a>
+
+                    <a href="#">
+                        <p class="links-footer">
+                            <i class='bx bxl-instagram-alt'></i>
+                        </p>
+                    </a>
+
+                    <a href="#">
+                        <p class="links-footer">
+                            <i class="fa-brands fa-x-twitter"></i>
+                        </p>
+                    </a>
+                </div>
+            </div>
+
+
+            <div class="box p-light">
+                <h2>Información de contacto</h2>
+                <hr class="hr-footer">
+                <p>Av. Balta 123, Chiclayo</p>
+                <p>976123456</p>
+                <p>70405517@usat.pe</p>
+            </div>
+
+            <div class="box">
+                <h2>Boletín</h2>
+                <hr class="hr-footer">
+                <input class="form-control mr-sm-2 mb-2" type="email" placeholder="Ingresa tu email" aria-label="Email"
+                    style="margin-right: 10px;">
+                <button class="btn my-2 my-sm-0" type="submit" id="boton-suscribirse">Suscribirse</button>
+            </div>
+
+        </div>
+
+        <hr id="hr-1">
+
+        <div class="grupo-2">
+            <div class="mas_info">
+                <a href="acerca-de.html">Acerca de</a>
+                <a href="contactanos.html">Contáctanos</a>
+                <a href="faqs.html">FAQs</a>
+            </div>
+        
+            <br>
+        
+            <div class="d-flex flex-column flex-sm-row justify-content-between">
+                <small class="order-2 order-sm-1">Creación: <i>lun 25 mayo 2024</i></small>
+                <small class="order-1 order-sm-2">© 2023-2024, Tecnohub SAC - By ohMyCode PE</small>
+                <small class="order-3 order-sm-3">Modificación: <i>jue 4 julio 2024</i></small>
+            </div>
+        </div>
+        
+        
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>

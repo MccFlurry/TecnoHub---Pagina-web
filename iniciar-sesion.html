@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TecnoHub - Iniciar Sesión</title>
+
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styleindex.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/0d7c115e0b.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <div class="container mt-5">
+        <div class="card shadow-lg">
+            <div class="row no-gutters">
+                <div
+                    class="col-md-6 d-flex flex-column align-items-center justify-content-center inicio-back text-white">
+                    <img src="img/TECNOHUB.png" class="img-fluid mb-3" alt="Logo TecnoHub">
+                </div>
+                <div class="col-md-6">
+                    <div class="card-body">
+                        <h1 class="card-title text-center hd-ini">Iniciar Sesión</h1>
+                        <form>
+                            <div class="form-group">
+                                <label for="username" class="p-light">Nombre de usuario o correo</label>
+                                <input type="text" class="form-control" id="username"
+                                    placeholder="Ingrese su nombre de usuario o correo" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="password" class="p-light">Contraseña</label>
+                                <input type="password" class="form-control" id="password"
+                                    placeholder="Ingrese su contraseña" required>
+                            </div>
+                            <a href="index.html" type="submit" class="btn btn-block shadow p-light" id="boton-ini-reg">Iniciar Sesión</a>
+
+                            <div class="text-center mt-3">
+                                <a href="#" class="text-primary p-light">Olvidé mi contraseña</a>
+                            </div>
+                            <hr>
+                            <a href="index.html" type="button" class="btn btn-block p-light" id="botones-inicio-xd"><i
+                                    class="fa-brands fa-google"></i>Continuar con Google</a>
+                            <a href="index.html" type="button" class="btn btn-block" id="botones-inicio-xd"><i
+                                    class="fa-brands fa-facebook p-light"></i>Continuar con Facebook</a>
+                            <a href="index.html" type="button" class="btn btn-block" id="botones-inicio-xd"><i
+                                    class="fa-brands fa-apple p-light"></i>Continuar con Apple</a>
+                            <div class="text-center mt-3 p-light">
+                                <span>No tienes cuenta? <a href="registrar-usuario.html"
+                                        class="text-primary">Regístrate</a></span>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

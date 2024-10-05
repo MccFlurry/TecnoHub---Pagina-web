@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acerca de TecnoHub</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styleindex.css">
+
+    <link rel="icon" href="img/icono.png">
+
+    <link rel="stylesheet" href="css/anicollections.css">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/0d7c115e0b.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <!-- Header - No tocar -->
+    <nav class="navbar navbar-expand-lg" id="barra_navegacion">
+
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index2.html">
+                <img src="img/logo-header.png" alt="" style="width: 350px; height: 100px; border-radius: 20px;"
+                    class="img-fluid">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse flex-column mx-0 mx-md-5" id="navbarNav">
+
+                <form class="form-inline my-1 my-lg-3 w-100 d-flex ">
+                    <input class="form-control w-85 me-2" type="search" placeholder="🔍︎ Buscar" aria-label="Search">
+                    <button class="btn w-15 shadow" type="submit" id="boton-buscar" formaction="busqueda-producto.html">
+                        Buscar
+                    </button>
+                </form>
+
+                <div class="d-flex flex-column">
+
+                    <div class="d-flex flex-row justify-content-between align-items-center">
+
+                        <a class="nav-link px-2" href="index.html" style="border-radius: 10%">
+                            <p class="font-header">
+                                <i class="fa-solid fa-house"></i> Inicio
+                            </p>
+                        </a>
+                        <a class="nav-link px-1" href="#" style="border-radius: 10%">
+                            <select id="categorySelect" class="form-select" aria-label="Default select example"
+                                style="border-radius: 10%">
+                                <option selected>Categorías</option>
+                                <option value="celulares.html">Celulares</option>
+                                <option value="smartwatch.html">Smartwatch</option>
+                                <option value="accesorios.html">Accesorios</option>
+                            </select>
+                        </a>
+                        <a class="nav-link px-2 frequent-animation" href="arma-tu-kit.html" style="border-radius: 10%">
+                            <p class="font-header">
+                                <i class="fa-solid fa-box-open"></i> Arma tu Kit
+                            </p>
+                        </a>
+
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="collapse navbar-collapse flex-column align-items-end mx-3" id="navbarNav">
+
+
+                <div class="d-flex flex-column">
+                    <div class="d-flex flex-row justify-content-between align-items-center mb-4">
+
+
+                        <div class="dropdown ">
+
+                            <a class="btn btn-secondary dropdown-toggle"
+                                style="background: #4374A9; margin-right: 10px; border:1px solid  #bfcfdd;" href="#"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                grupo04
+                            </a>
+                            <img src="img/user.png" alt="">
+
+                            <ul class="dropdown-menu ">
+                                <li><a class="dropdown-item " href="mis-compras.html">Mis compras</a></li>
+                                <li><a class="dropdown-item " href="ayuda.html">Ayuda</a></li>
+                                <div class="dropdown-divider"></div>
+                                <li><a class="dropdown-item text-danger " href="index2.html">Cerrar sesión</a></li>
+                            </ul>
+                        </div>
+
+                        <a class="nav-link" href="carrito.html" id="login" style="margin-left: 10px;">
+                            <p class="font-header" id="personal1">
+                                <img src="img/cart.png" alt="">
+                            </p>
+                        </a>
+                    </div>
+
+
+                </div>
+
+                <div class="d-flex flex-column">
+                    <div class="d-flex flex-row justify-content-between align-items-center">
+
+                        <a class="nav-link px-2" href="mi-cuenta.html" style="border-radius: 10%">
+                            <p class="font-header">
+                                Mi cuenta
+                            </p>
+                        </a>
+                        <a class="nav-link px-2" href="mis-favoritos.html" style="border-radius: 10%"
+                            data-anijs="if: mouseover, do: pulse animated">
+                            <p class="font-header">
+                                <i class='bx bxs-heart'></i>
+                                Mis favoritos
+                            </p>
+                        </a>
+
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- Modificar página aquí -->
+    <div class="row m-4">
+        <h1>Acerca de TecnoHub</h1>
+
+        <div class="row align-items-center mt-4">
+            <div class="col-lg-8 col-md-12">
+                <h3 class="acerda-de-headers">Somos</h3>
+                <p class="p-light-ad">
+                    TECNOHUB es una empresa en comercio electrónico que se especializa en la venta de procesos electrónicos de última generación. Nos dedicamos a ofrecer a nuestros clientes una experiencia de compra sin complicaciones, brindándoles acceso a una amplia selección de dispositivos electrónicos de calidad a precios competitivos.
+                </p>
+            </div>
+            <div class="col-lg-4 col-md-12">
+                <img src="img/somos.webp" class="img-fluid" style="height: 40vh; width: auto;" alt="">
+            </div>
+
+            <div class="col-lg-8 col-md-12">
+                <h3 class="acerda-de-headers">Hacemos</h3>
+                <p class="p-light-ad">
+                    Operamos como un portal en línea donde los clientes puden encontrar una amplia gama de productos electrónicos, incluyendo teléfonos inteligentes, dispositivos de audios y accesorios.
+                </p>
+            </div>
+            <div class="col-lg-4 col-md-12">
+                <img src="img/hacemos.webp" class="img-fluid" style="height: 40vh; width: auto;" alt="">
+            </div>
+
+            <div class="col-lg-8 col-md-12">
+                <h3 class="acerda-de-headers">Trabajamos</h3>
+                <p class="p-light-ad">
+                    En TECNOHUB, trabajamos incansablemente para garantizar que cada uno de nuestros clientes tenga acceso a los últimos productos tecnológicos del mercado. NOs enfocamos en la innovación y en la mejora continua de nuestros procesos para asegurarnos de que cada compra sea una experiencia satisfactoria.
+                </p>
+            </div>
+            <div class="col-lg-4 col-md-12">
+                <img src="img/trabajamos.webp" class="img-fluid" style="height: 40vh; width: auto;" alt="">
+            </div>
+
+            <div class="col-lg-8 col-md-12">
+                <h3 class="acerda-de-headers">Crecemos</h3>
+                <p class="p-light-ad">
+                    Crecemos con ayuda de nuestros clientes, adaptándonos a sus necesidades y superando sus expectativas. En TECNOHUB, creemos en el poder de la tecnología para mejorar la vda de las personas y estamos comprometidos con brindad soluciones tecnológicas que hagan la diferenciia en la vida de nuestros clientes.
+                </p>
+            </div>
+            <div class="col-lg-4 col-md-12">
+                <img src="img/crecemos.webp" class="img-fluid" style="height: 40vh; width: auto;" alt="">
+            </div>
+
+
+            
+        </div>
+    </div>
+
+    <!--  Footer - No tocar -->
+    <footer class="pie-pagina">
+
+        <div class="grupo-1">
+            <div class="box d-flex flex-column align-items-center">
+                <img src="img/logo-footer.png" class="img-fluid" alt=""
+                    style="width: 280px; height: 80px; border-radius: 20px;">
+
+                <div class="red-social mt-3">
+                    <a href="#">
+                        <p class="links-footer">
+                            <i class='bx bxl-facebook'></i>
+                        </p>
+                    </a>
+
+                    <a href="#">
+                        <p class="links-footer">
+                            <i class='bx bxl-instagram-alt'></i>
+                        </p>
+                    </a>
+
+                    <a href="#">
+                        <p class="links-footer">
+                            <i class="fa-brands fa-x-twitter"></i>
+                        </p>
+                    </a>
+                </div>
+            </div>
+
+
+            <div class="box p-light">
+                <h2>Información de contacto</h2>
+                <hr class="hr-footer">
+                <p>Av. Balta 123, Chiclayo</p>
+                <p>976123456</p>
+                <p>70405517@usat.pe</p>
+            </div>
+
+            <div class="box">
+                <h2>Boletín</h2>
+                <hr class="hr-footer">
+                <input class="form-control mr-sm-2 mb-2" type="email" placeholder="Ingresa tu email" aria-label="Email"
+                    style="margin-right: 10px;">
+                <button class="btn my-2 my-sm-0" type="submit" id="boton-suscribirse">Suscribirse</button>
+            </div>
+
+        </div>
+
+        <hr id="hr-1">
+
+        <div class="grupo-2">
+            <div class="mas_info">
+                <a href="acerca-de.html">Acerca de</a>
+                <a href="contactanos.html">Contáctanos</a>
+                <a href="faqs.html">FAQs</a>
+            </div>
+        
+            <br>
+        
+            <div class="d-flex flex-column flex-sm-row justify-content-between">
+                <small class="order-2 order-sm-1">Creación: <i>lun 25 mayo 2024</i></small>
+                <small class="order-1 order-sm-2">© 2023-2024, Tecnohub SAC - By ohMyCode PE</small>
+                <small class="order-3 order-sm-3">Modificación: <i>jue 4 julio 2024</i></small>
+            </div>
+        </div>
+        
+        
+    </footer>
+
+    <script src="js/anijs-min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
